@@ -8,7 +8,6 @@ const ChatForm = () => {
   const [value, setValue] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(false);
 
-  console.log(response);
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setValue(e.target.value);
   };
